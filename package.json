@@ -10,7 +10,8 @@
     "scripts": {
         "start": "node ./server.js && webpack-dev-server --open",
         "start:dev": "nodemon ./server.js",
-        "build": "webpack --mode production"
+        "build": "webpack --mode production",
+        "heroku-postbuild": "npm install && npm run build"
     },
     "dependencies": {
         "bcryptjs": "^2.4.3",
