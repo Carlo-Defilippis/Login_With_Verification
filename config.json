@@ -1,0 +1,13 @@
+﻿{
+    "connectionString": "mongodb+srv://maurya512:enph739ektA@cluster0.vufo2.mongodb.net/emailverify?retryWrites=true&w=majority",
+    "secret": "4T0S1x56QkSZoMSb7gkHT",
+    "emailFrom": "info@verification.com",
+    "smtpOptions": {
+        "host": "smtp.ethereal.email",
+        "port": 587,
+        "auth": {
+            "user": "marc.mcglynn21@ethereal.email",
+            "pass": "g3GspCsd36mc3fE3xb"
+        }
+    }
+}
